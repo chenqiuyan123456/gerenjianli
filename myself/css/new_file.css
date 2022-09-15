@@ -1,0 +1,44 @@
+/* 为主体部分设置字体大小，垂直剧中，颜色为黑色 */
+body {
+font-family: "微软雅黑";
+font-size: 17px;
+line-height: 25px;
+color:black;
+}
+/* 定义的一个类选择器，宽，左边距为自动，右边距，对齐方式为居中 */
+.table1 {
+width: 800px;
+margin-right: auto;
+margin-left: auto;
+align:center;
+}
+/* 行内元素的字体大小 */
+span{
+	font-size:20px;
+}
+/* 超链接的字体大小，字体样式，颜色 */
+a {
+font-size: 17px;
+font-family: "微软雅黑";
+color: #333;
+}
+/* 链接时设置的颜色，去掉下划线， */
+a:link {
+color: #333;
+text-decoration: none;
+}
+/* 访问过的，去掉下划线，颜色 */
+a:visited {
+text-decoration: none;
+color: #FFF;
+}
+/* 当鼠标悬停的时候，去掉下划线，颜色 */
+a:hover {
+text-decoration: none;
+color: #FFF;
+}
+/* 鼠标按下的一瞬间，去掉下划线，颜色 */
+a:active {
+text-decoration: none;
+color: #FFF;
+}
